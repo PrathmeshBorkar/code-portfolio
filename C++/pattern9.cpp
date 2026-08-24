@@ -22,7 +22,7 @@ int main()
         }
         cout<<endl;
     }
-    for(i = 4; i >= 0; i--)
+    for(i = n-1; i >= 0; i--)
     {
         j = n-i-1;
         while(j>0)

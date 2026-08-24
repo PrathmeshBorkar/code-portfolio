@@ -6,11 +6,13 @@ int main()
     int i, j, n = 0;
     cout<<"Enter number of rows : ";
     cin>>n;
-    for(i = n; i > 0; i--)
+    int k = 1;
+    for(i = 0; i < n; i++)
     {
-        for(j = 1; j < i+1; j++)
+        for(j = 0; j < i+1; j++)
         {
-            cout << j << " ";
+            cout<<k<<" ";
+            k++;
         }
         cout<<endl;
     }
